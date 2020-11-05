@@ -1,6 +1,11 @@
 require_relative "./chatty_student.rb"
 
 class Student
+    
+  def initialize
+    hello 
+    raise_hand
+  end
   
   def hello
     puts "Hey there! I'm so excited to learn stuff."
