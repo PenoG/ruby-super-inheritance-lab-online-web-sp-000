@@ -1,6 +1,6 @@
 class Student
     
-  def initialize(hello, raise_hand)
+  def initialize(hello)
     hello 
     raise_hand
   end
